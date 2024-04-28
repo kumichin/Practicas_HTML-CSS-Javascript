@@ -1,8 +1,9 @@
-Este repositorio es una recopilación de ejercicios que voy realizando para practicar y mejorar mi lógica de programación.
-habrá paginas enteras, algoritmos, problemas... Cualquier cosa que vaya encontrado.
+Este repositorio es una recopilación de páginas sin ninguna finalidad en concreto salvo permitirme practicar y profundizar en conocimientos.
+Las páginas que esten aqui variaran en solo html y css y otras incluiran tambien Javascript. según me vaya paraciendo en cada diseño.
 
+La idea de las páginas será de ejercicios que vea por ahí en los que ademas de hacer lo que piden iré añadiendo cositas según me vaya pareciendo para incorporar mejor estética y funcionalidades.
 
-Finalidad de este repositorio
-En realidad no tiene una función concreta, simplemente son cosas que hago por diversion y para practicar. La practica hace al maestro, como dicen.
+Si estas viendo este repositorio y quieres contactar conmigo siempre puedes dejarme un comentario por aqui o escribirme a mi correo:
+kumikoaisaka@gmail.com
 
 
