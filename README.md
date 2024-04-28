@@ -3,7 +3,6 @@ Las páginas que esten aqui variaran en solo html y css y otras incluiran tambie
 
 La idea de las páginas será de ejercicios que vea por ahí en los que ademas de hacer lo que piden iré añadiendo cositas según me vaya pareciendo para incorporar mejor estética y funcionalidades.
 
-Si estas viendo este repositorio y quieres contactar conmigo siempre puedes dejarme un comentario por aqui o escribirme a mi correo:
-kumikoaisaka@gmail.com
+Si estas viendo este repositorio y quieres contactar conmigo siempre puedes escribirme a mi correo, que se encuentra en mi perfil o en cualquiera de mis otras redes sociales
 
 
