@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de cuadros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="hero">
+        <h1>Galeria de cuadros</h1>
+        <div class="circle animate__animated animate__heartBeat" >
+           <span> Quiz</span>
+        </div>
+    </div>
+    </header>
+    <section>
+
+        <h2>¿Cuantos conoces?</h2>
+        <h3>Pasa el ratón debajo del cuadro para saber su titulo, o haz click en un cuadro para entrar en el visor de imagenes</h3> 
+        <div class="cuadro">
+            <a href="#img1"><img src="assets/Anders_Askevold__Norwegian_Fjord_Landscape.png" alt="Paisaje fiordo noruego"><p>Paisaje de fiordo noruego</p></a>
+            <a href="#img2"><img  src="assets/Anderson_Sophie__The_Time_Of_The_Lilacs.png" alt="tiempo de lilas"><p>Tiempo de lilas</p></a>
+            <a href="#img3"><img  src="assets/almond-blossom-gogh.jpg" alt="el anciano de dias"><p>El anciano de días</p></a>
+            <a href="#img4"><img  src="assets/Bloch__Sermon_on_the_Mount.png" alt="el sermon de la montaña"><p>El sermón de la montaña</p></a>
+            <a href="#img5"><img  src="assets/Boris_Kustodiyev__Morning.png" alt="la mañana"><p>La mañana</p></a>
+            <a href="#img6"><img  src="assets/Cole_Thomas__Cora_Kneeling_(from_Last_of_the_Mohicans).png" alt="cora arrodillada"><p>Cora arrodillada</p></a>
+            <a href="#img7"><img  src="assets/Courbet__the_Stormy_Sea.png" alt="tormenta en el mar"><p>Tormenta en el mar</p></a>
+            <a href="#img8"><img  src="assets/David__Death_of_Socrates.png" alt="la muerte de socrates"><p>La muerte de socrates</p></a>
+            <a href="#img9"><img  src="assets/Da_Vinci___Last_Supper.png" alt="la ultima cena"><p>La última cena</p></a>
+            <a href="#img10"><img  src="assets/Degas__Dancing_Class.png" alt="la clase de baile"><p>La clase de baile</p></a>
+        </div>
+    </section>
+    <section>
+        <div class="modal" id="img1">
+            <h3>Paisaje de un fiordo noruego ~Askevold Anders~</h3>
+            <div class="imagen">
+                <a href="#img10">&#60;</a>
+                <a href="#img2"><img src="assets/Anders_Askevold__Norwegian_Fjord_Landscape.png"></a>
+                <a href="#img2">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        
+        <div class="modal" id="img2">
+            <h3>Tiempo de lilas ~Sophie Anderson~</h3>
+            <div class="imagen">
+                <a href="#img1">&#60;</a>
+                <a href="#img3"><img src="assets/Anderson_Sophie__The_Time_Of_The_Lilacs.png"></a>
+                <a href="#img3">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        
+        <div class="modal" id="img3">
+            <h3>Almendro en flor ~Van Goth~</h3>
+            <div class="imagen">
+                <a href="#img2">&#60;</a>
+                <a href="#img4"><img src="assets/almond-blossom-gogh.jpg"></a>
+                <a href="#img4">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        
+        <div class="modal" id="img4">
+            <h3>El sermón de la montaña ~Bloch~</h3>
+            <div class="imagen">
+                <a href="#img3">&#60;</a>
+                <a href="#img5"><img src="assets/Bloch__Sermon_on_the_Mount.png"></a>
+                <a href="#img5">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img5">
+            <h3>La mañana ~Boris Kustodiyev~</h3>
+            <div class="imagen">
+                <a href="#img4">&#60;</a>
+                <a href="#img6"><img src="assets/Boris_Kustodiyev__Morning.png"></a>
+                <a href="#img6">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img6">
+            <h3>Cora arrodillada ~Thomas Cole~</h3>
+            <div class="imagen">
+                <a href="#img5">&#60;</a>
+                <a href="#img7"><img src="assets/Cole_Thomas__Cora_Kneeling_(from_Last_of_the_Mohicans).png"></a>
+                <a href="#img7">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img7">
+            <h3>Tormenta en el mar ~Courbet~</h3>
+            <div class="imagen">
+                <a href="#img6">&#60;</a>
+                <a href="#img8"><img src="assets/Courbet__the_Stormy_Sea.png"></a>
+                <a href="#img8">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img8">
+            <h3>La muerte de Sócrates ~David~</h3>
+            <div class="imagen">
+                <a href="#img7">&#60;</a>
+                <a href="#img9"><img src="assets/David__Death_of_Socrates.png"></a>
+                <a href="#img9">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img9">
+            <h3>La última cena ~Leonardo Da Vinci~</h3>
+            <div class="imagen">
+                <a href="#img8">&#60;</a>
+                <a href="#img10"><img src="assets/Da_Vinci___Last_Supper.png"></a>
+                <a href="#img10">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="modal" id="img10">
+            <h3>Clase de baile ~Degas~</h3>
+            <div class="imagen">
+                <a href="#img9">&#60;</a>
+                <a href="#img1"><img src="assets/Degas__Dancing_Class.png"></a>
+                <a href="#img1">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+    </section>
+    <footer>
+        <p>Diseño y maquetación by Kumi Aisaka. copyright&#169; 2024</p>
+    </footer>
+</body>
+</html>

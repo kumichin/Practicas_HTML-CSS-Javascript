@@ -1,0 +1,10 @@
+
+Quiz adivina el cuadro
+
+Página hecha con html y css, 
+
+Tiene una animacion hecha con css en la portada y un efecto de hover para 
+que aparezca el titulo del cuadro al pasar el raton por encima.
+
+Al principio iba a ser una simple galeria pero le empecé a añadir cosas, luego se me ocurrian otras
+y acabe con el quiz que es ahora.
