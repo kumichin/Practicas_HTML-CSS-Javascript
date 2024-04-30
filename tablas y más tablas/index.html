@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y más tablas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="celulas.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+    <h1>Ejercicios de tablas</h1>
+</header>
+<SECtion>
+
+    <h2>  Tabla de las temperaturas</h2>
+    <table class="temperatura">
+        <tr>
+            <td class="lateral">Lunes</td>
+            <td class="resto" >10º Nubes</td>
+        </tr>
+        <tr>
+            <td class="lateral">Martes</td>
+            <td class="resto">12º Nubes</td>
+        </tr>
+        <tr>
+            <td class="lateral">Miercoles</td>
+            <td class="resto">12º Nubes</td>
+        </tr>
+        <tr>
+            <td class="lateral">Jueves</td>
+            <td class="resto">15º Sol</td>
+        </tr>
+        <tr>
+            <td class="lateral">viernes</td>
+            <td class="resto">15º Sol</td>
+        </tr>
+        <tr>
+            <td class="lateral">Sabado</td>
+            <td class="resto">12º Lluvia</td>
+        </tr>
+        <tr>
+            <td class="lateral">Domingo</td>
+            <td class="resto">12º Lluvia</td>
+        </tr>
+    </table>
+
+<hr>
+<h2>Tablas de las temperaturas con cabecera</h2>
+
+<table estado-diario>
+   
+    <tbody>
+        <tr>
+        <th>Día de la semana</th>
+        <th>Temperatura media</th>
+        <th>Estado general</th>
+
+        </tr>
+        <tr>
+        <td class="lateral" >Lunes</td>
+        <td class="resto">10ª</td>
+        <td class="resto">Nubes</td> 
+        </tr>
+        <tr>
+        <td class="lateral">Martes</td>
+        <td class="resto">12ª</td>
+        <td class="resto">Nubes</td>
+    </tr>
+    <tr>
+            <td class="lateral">Miercoles</td>
+            <td class="resto">12º</td>
+            <td class="resto">Nubes</td>
+        </tr>
+        <tr>
+            <td class="lateral">Jueves</td>
+            <td class="resto">15ª</td>
+            <td  class="resto">Sol</td>
+        </tr>
+        <tr>
+            <td class="lateral">Viernes</td>
+            <td class="resto">15ª</td>
+            <td class="resto">Sol</td>
+        </tr>
+        <tr>
+            <td class="lateral">Sabado</td>
+            <td class="resto">12º</td>
+            <td class="resto">Lluvia</td>
+        </tr>
+        <tr>
+            <td class="lateral">Domingo</td>
+            <td class="resto">12ª</td>
+            <td class="resto">Lluvia</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <caption><strong>Turnos semanales</strong></caption>
+    <tr>
+        <th>Día</th>
+        <th>Mañana</th>
+        <th>Tarde</th>
+    </tr>
+    <tr>
+        <td class="lateral">Lunes</td>
+        <td class="resto">Juan</td>
+        <td class="resto">Pedro</td>
+    </tr>
+    <tr>
+        <td class="lateral">Martes</td>
+        <td class="resto">Luisa</td>
+        <td class="resto">María</td>
+    </tr>
+    <tr>
+        <td class="lateral">Miercoles</td>
+        <td class="resto">Andrés</td>
+        <td class="resto">Juan</td>
+    </tr>
+    <tr>
+        <td class="lateral">Jueves</td>
+        <td class="resto">María</td>
+        <td class="resto">Luisa</td>
+    </tr>
+    <tr>
+        <td class="lateral">Viernes</td>
+        <td class="resto">Pedro</td>
+        <td class="resto">Andrés</td>
+    </tr>
+</table>
+
+<hr>
+
+<table>
+    <thead>
+        <tr>
+            <th>Planeta</th>
+            <th>Masa</th>
+            <th>Distancia al sol</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="lateral">Mercurio</td>
+            <td class="resto">0.06</td>
+            <td class="resto">57.910.000</td>
+        </tr>
+        <tr>
+            <td class="lateral">venus</td>
+            <td class="resto">0.82</td>
+            <td class="resto">108.200.000</td>
+        </tr>
+        <tr>
+            <td class="lateral">La Tierra</td>
+            <td class="resto">1.00</td>
+            <td class="resto">146.600.000</td>
+        </tr>
+        <tr>
+            <td class="lateral">Marte</td>
+            <td class="resto">0.11</td>
+            <td class="resto">227.940.000</td>
+        </tr>
+        <tr>
+            <td class="lateral">Júpites</td>
+            <td class="resto">318</td>
+            <td class="resto">778.330.000</td>
+        </tr>
+        <tr>
+            <td class="lateral">Saturno</td>
+            <td class="resto">95.1</td>
+            <td class="resto">1.429.400.000</td>
+        </tr>
+        <tr>
+            <td class="lateral">Urano</td>
+            <td class="resto">14.6</td>
+            <td class="resto">2.870.990.000</td>
+        </tr>
+        <tr>
+            <td class="lateral">Neptuno</td>
+            <td class="resto">17.2</td>
+            <td class="resto">4.504.300.000</td>
+        </tr>
+        <tr>
+            <td colspan="3">Las masas son relativas a la tierra</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<table>
+    <caption>El Planeta Júpiter</caption>
+    <thead>
+    <tr>
+        <th>Imagen</th>
+        <th colspan="2">Datos</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td class="resto" rowspan="6"><img src="assets/jupiter.jpg" alt=""></th>
+        <td class="resto">Distancia desde el sol:</th>
+        <td class="resto">778,5 millones km</th>
+        </tr>
+        <tr>
+        <td class="resto">Radio</td>
+        <td class="resto">69.911 km</td>
+    </tr>
+    <tr>
+        <td class="resto">Gravedad</td>
+        <td class="resto">24,79 m/s²</td>
+    </tr>
+    <tr>
+        <td class="resto">Masa</td>
+        <td class="resto">1,898 × 10 <sup> 27</sup> kg</td>
+    </tr>
+    <tr>
+        <td class="resto">Superficie</td>
+        <td class="resto"> 61,42 miles de millones km²</td>
+    </tr>
+    <tr>
+        <td class="resto">Duración del día</td>
+        <td class="resto">0d 9h 56m</td>
+    </tr>
+</tbody>
+</table>
+</SECtion>
+<footer>
+    <hr class="footer">
+    <p>Diseño y css todos los derechos reservados a Kumi Aisaka</p>
+</footer>
+</body>
+</html>

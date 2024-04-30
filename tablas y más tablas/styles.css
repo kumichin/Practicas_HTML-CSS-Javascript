@@ -1,0 +1,114 @@
+:root{
+    --azulon: #012E40;
+    --aguado: #025159;
+    --agua: #038C8C;
+    --turquesa: #03A696;
+    --anaranjado: #F28705;
+}
+
+/* globales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cabecera */
+
+header{
+    background-color: var(--azulon);
+    transform: skewX(30deg);
+
+}
+
+body{
+
+    background-color: #d7ecee;
+}
+
+/* los titulos */
+
+h1, h2, caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    color: var(--aguado);
+    margin: 40PX;
+
+}
+h1{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--turquesa); 
+    transform: skewX(-30deg);
+    box-shadow: 3px 3px 5px 3px #7fcae7;
+
+}
+
+p{
+   text-align: center;
+   margin: 30PX;
+    color: #012E40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* las tablas */
+
+table{
+    margin: 50px;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, .lateral{
+    background-color: var(--agua);
+    color: white;
+    padding: .5vw;
+    box-shadow: 1px 1px 2px 2px #012E40;
+    border: .2vw solid transparent;
+
+}
+
+.resto{
+    text-align: center;
+    border: .3vw solid var(--aguado);
+    padding: 1vw;
+    
+}
+
+/* separadores */
+hr{
+    border-color: #038C8C;
+    width: 35%;
+    height: .2rem;
+    background-color: #038C8C;
+    margin: 30PX;
+    box-shadow: 3px 3px 5px 3px #012E40;
+}
+
+.footer{
+    border-color: #038C8C;
+    width: 35%;
+    height: .2rem;
+    background-color: #038C8C;
+    box-shadow: 3px 3px 5px 3px #012E40;
+    margin: 30PX;
+    margin-left: 400px;
+}  
+
+
+/* imagenes */
+img{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 10%;
+    margin: 1vw;
+}
+
+/* footer */
+
+footer{
+    margin: 10vh;
+}
