@@ -1,0 +1,142 @@
+
+:root{
+    --gris: #96958a;
+    --gris_oscuro: #76877d;
+    --gris_azulado: #88b8a9;
+    --azulado_claro: #b2cbae;
+    --beige: #dbddb4;
+    --letra-shadows : font-family: "Shadows Into Light", cursive;
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+    
+nav{ 
+ float: right;
+} 
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 1rem;
+    font-weight: 800;
+}
+
+li img{
+    width:  1.4rem;
+    height: 1.4rem;
+    margin-right: .4vw;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color:var(--beige);
+    padding: 15px;
+}
+
+nav ul li a:hover{
+border: #3be2da;
+box-shadow: 0 0 30px rgb(93, 222, 231);
+color: rgb(198, 205, 238);
+border-radius: 12%;
+}
+
+ .img-cabecera{ 
+    width:  75rem;
+    height: 35rem;
+    margin: 1.5rem;
+    border-radius: 6%;
+    border: .2rem solid gray;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 50px rgb(5, 5, 5);
+ }
+
+.text-cabecera{
+    color: rgb(250, 239, 239);
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 0 40px rgb(51, 49, 2);
+} 
+
+.logo{
+     color: rgba(151, 155, 160, 0.452);
+    text-shadow: 0 0 20px rgb(93, 222, 231);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    float: left;
+    padding: 1rem;
+} 
+
+.descripcion, .ingredientes, .elaboracion, .mas_recetas{
+    margin: 3rem;
+    
+}
+
+.iconito::before{
+    content:"☪️";
+    margin: .5rem;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.cabecera{
+     background-image: url("assets/favicon/pastel.jpg");
+    padding-top: 120px;
+    padding-bottom: 20px;
+    backdrop-filter: saturate(180%) blur(2rem);
+   
+    
+}
+
+.title{
+    color:gray;
+    
+}
+
+h2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+h2::before{
+    content:"✰";
+    margin: .5rem;
+}
+
+p, .iconito{
+    font-size: 1.2rem;
+}
+
+span{
+    margin: 2rem;
+}
